@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{12AEAF33-C229-4897-B7EB-8E9E3E6029A7}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MVVM/Views/MainView.xaml">
+    <Files>
+      <File FileName="MVVM/Views/MainView.xaml" Line="9" Column="4" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.MVVM.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.D1B9AFE3-7BD8-45A9-AA04-0124C79FE90C" />
+</Properties>

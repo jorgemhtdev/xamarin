@@ -1,0 +1,15 @@
+/Users/jorgemht/Projects/MVVM/iOS/obj/iPhoneSimulator/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/jorgemht/Projects/MVVM/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3/ibtool/_BundleResourceWithLogicalName.items
+/Users/jorgemht/Projects/MVVM/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3/actool/_PartialAppManifest.items
+/Users/jorgemht/Projects/MVVM/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3/actool/_BundleResourceWithLogicalName.items
+/Users/jorgemht/Projects/MVVM/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3/optimized/
+/Users/jorgemht/Projects/MVVM/iOS/bin/iPhoneSimulator/Debug/MVVM.iOS.exe.mdb
+/Users/jorgemht/Projects/MVVM/iOS/bin/iPhoneSimulator/Debug/MVVM.iOS.exe
+/Users/jorgemht/Projects/MVVM/iOS/obj/iPhoneSimulator/Debug/MVVM.iOS.exe
+/Users/jorgemht/Projects/MVVM/iOS/obj/iPhoneSimulator/Debug/MVVM.iOS.exe.mdb
+/Users/jorgemht/Projects/MVVM/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.dll
+/Users/jorgemht/Projects/MVVM/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.dll
+/Users/jorgemht/Projects/MVVM/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.dll
+/Users/jorgemht/Projects/MVVM/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.dll
+/Users/jorgemht/Projects/MVVM/iOS/bin/iPhoneSimulator/Debug/MVVM.dll
+/Users/jorgemht/Projects/MVVM/iOS/bin/iPhoneSimulator/Debug/MVVM.dll.mdb
