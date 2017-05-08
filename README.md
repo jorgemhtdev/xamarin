@@ -40,15 +40,25 @@ You can run your Xamarin Forms apps in simulators. While these simulators work r
 ### You should have the following tools:
 
 - **Windows**
+
 	- [Visual Studio 2017](https://www.visualstudio.com/downloads/) 
 	- [Xamarin](http://xamarin.com/download)
-    - [Visual Studio 2017 + Xamarin](https://www.visualstudio.com/xamarin/)
+	- [Visual Studio 2017 + Xamarin](https://www.visualstudio.com/xamarin/)
+	
 - **Mac**
-	- [Xamarin Studio](https://www.xamarin.com/studio) or [Visual Studio preview](https://www.visualstudio.com/vs/visual-studio-mac/). If you only want use Xamarin, it is better only use Xamarin Studio.
 
-- **Windows and Mac**
+	- [Xamarin Studio](https://www.xamarin.com/studio) or [Visual Studio preview](https://www.visualstudio.com/vs/visual-studio-mac/). If you only want use Xamarin, it is better only use Xamarin Studio.
+	
+- **Visual Studio -Extension-**
+
+  - [Resharper](https://www.jetbrains.com/resharper) -  It finds compiler errors, runtime errors, redundancies, and code smells right as you type, suggesting intelligent corrections for them [...(more information)](https://www.visualstudiogallery.msdn.microsoft.com/EA4AC039-1B5C-4D11-804E-9BEDE2E63ECF)
+  
+- **Windows and Mac or Visual Studio**
+
   - [Genymotion](https://www.genymotion.com) - Genymotion is a fast third-party emulator that can be used instead of the default Android emulator. In some cases it's as good as or better than developing on actual devices!
   - [Postman](https://www.getpostman.com) - Postman is a powerful HTTP client for testing web service.
+  - [Fiddler](http://www.telerik.com/fiddler) - Fiddler is a data monitoring tool that allows you to see incoming and outgoing HTTP(s) traffic from your computer.
+  - [Jsonlint](https://jsonlint.com) - Open source project which allows you to validate your JSON data (online).
 
 ### Contents
 
@@ -121,6 +131,35 @@ You can run your Xamarin Forms apps in simulators. While these simulators work r
 - [Xamarin guiades](https://developer.xamarin.com/guides/)
 - [Xamarin blog](https://blog.xamarin.com)
 - [There is a book about Xamarin](https://developer.xamarin.com/guides/xamarin-forms/creating-mobile-apps-xamarin-forms/)
+- [Introduction to Web Services](https://developer.xamarin.com/guides/cross-platform/application_fundamentals/web_services/)
+- [Consuming a RESTful Web Service](https://developer.xamarin.com/guides/xamarin-forms/cloud-services/consuming/rest/)
+- [Async Support Overview](https://developer.xamarin.com/guides/cross-platform/advanced/async_support_overview/)
+
+### Microsoft Azure:
+
+- [Azure](azure.microsoft.com)
+- [What is the Azure SDK for .NET?](https://docs.microsoft.com/en-us/azure/dotnet-sdk)
+- [Get the SDKs and command-line tools you need](https://azure.microsoft.com/en-us/downloads)
+- [Azure webinars](https://azure.microsoft.com/en-gb/overview/webinars)
+- [ZUMO-API-VERSION]https://docs.microsoft.com/en-us/azure/app-service-mobile/app-service-mobile-client-and-server-versioning
+- [Azure Security Services and Technologies](https://docs.microsoft.com/en-us/azure/security/azure-security-services-technologies)
+- [Protecting Web API Backend with Azure Active Directory and API Management]https://azure.microsoft.com/en-us/resources/videos/protecting-web-api-backend-with-azure-active-directory-and-api-management/
+
+### JSON:
+
+- [Introducing JSON](http://json.org)
+
+### Backend as a service provider:
+
+- [Parse](http://parseplatform.org)
+- [Realm](https://realm.io)
+- [Firebase](https://firebase.google.com/)
+
+### ASP.NET
+
+- [What's the relationship between the Xamarin and .Net Core?](https://forums.xamarin.com/discussion/67734/whats-the-relationship-between-the-xamarin-and-net-core)
+- [Getting Started with ASP.NET Core](https://developer.xamarin.com/guides/cross-platform/asp-net-core/)
+
 
 ### Purpose & Goal
 
