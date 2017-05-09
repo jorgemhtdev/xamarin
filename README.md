@@ -138,12 +138,13 @@ You can run your Xamarin Forms apps in simulators. While these simulators work r
 ### Microsoft Azure:
 
 - [Azure](azure.microsoft.com)
+- [Visual Studio Dev Essentials](azure.microsoft.com//pricing/member-offers/vs-dev-essentials/) - Dev Essentials gives you the experience to use Azure for free for 1 year, with a monthly credit of $ 25. 
 - [What is the Azure SDK for .NET?](https://docs.microsoft.com/en-us/azure/dotnet-sdk)
 - [Get the SDKs and command-line tools you need](https://azure.microsoft.com/en-us/downloads)
 - [Azure webinars](https://azure.microsoft.com/en-gb/overview/webinars)
-- [ZUMO-API-VERSION]https://docs.microsoft.com/en-us/azure/app-service-mobile/app-service-mobile-client-and-server-versioning
+- [ZUMO-API-VERSION](https://docs.microsoft.com/en-us/azure/app-service-mobile/app-service-mobile-client-and-server-versioning)
 - [Azure Security Services and Technologies](https://docs.microsoft.com/en-us/azure/security/azure-security-services-technologies)
-- [Protecting Web API Backend with Azure Active Directory and API Management]https://azure.microsoft.com/en-us/resources/videos/protecting-web-api-backend-with-azure-active-directory-and-api-management/
+- [Protecting Web API Backend with Azure Active Directory and API Management](https://azure.microsoft.com/en-us/resources/videos/protecting-web-api-backend-with-azure-active-directory-and-api-management)
 
 ### JSON:
 
