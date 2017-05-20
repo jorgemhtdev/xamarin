@@ -1,4 +1,5 @@
-﻿using Xamarin.Forms;
+﻿using CurrencyConverter.Properties;
+using Xamarin.Forms;
 
 namespace CurrencyConverter
 {
@@ -8,7 +9,7 @@ namespace CurrencyConverter
         {
             InitializeComponent();
 
-            MainPage = new CurrencyConverterPage();
+            MainPage = new MainPage();
         }
 
         protected override void OnStart()

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+            x:Class="CurrencyConverter.Properties.MainPage"
+            Padding="12"
+            Title="Currency Converter"
+            BindingContext="{Binding Main, Source={StaticResource Locator}}">
+    <StackLayout Padding="8">
+        <Label 
+            Text="Euro:"  />
+        <Entry
+            Text="{Binding Euro, Mode=TwoWay}"
+            Keyboard="Numeric"
+            Placeholder="Euro"  />
+        <Label 
+            Text="Dollar:" />
+        <Entry 
+            HorizontalTextAlignment="End"
+            Text="{Binding Dollar, StringFormat='{0:N2} $'}"
+            IsEnabled="false" 
+            Placeholder="value in dollar" />
+        <Label 
+            Text="British Pound:" />
+        <Entry 
+            HorizontalTextAlignment="End"
+            Text="{Binding Pound, StringFormat='{0:N2} £'}"
+            IsEnabled="false" 
+            Placeholder="value in british pound" />
+        <Label 
+            Text="Swiss Franc:" />
+        <Entry
+            HorizontalTextAlignment="End"
+            Text="{Binding Swiss, StringFormat='{0:N2} CHF'}"
+            IsEnabled="false" 
+            Placeholder="value in swiss franc" />
+        <Button
+            Command="{Binding ConvertCommand}"
+            Text="Converter"
+            BackgroundColor="Navy"
+            TextColor="White"
+            HeightRequest="40"
+            BorderRadius="20"  />
+    </StackLayout>
+</ContentPage>
