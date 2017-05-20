@@ -37,29 +37,47 @@ You can run your Xamarin Forms apps in simulators. While these simulators work r
 - [Windows 10 Mobile](https://docs.microsoft.com/en-gb/windows/uwp/get-started/enable-your-device-for-development)
 - [Windows Phone 8](https://msdn.microsoft.com/en-us/library/windows/apps/ff769508(v=vs.105).aspx)
 
-### You should have the following tools:
+**Xamarin Live Player** is an app for Android and iOS, which allows the developers to continuously build, test and debug their apps directly from Visual Studio 2017 IDE.
+- [Download Xamarin Live Player for iOS](https://itunes.apple.com/us/app/xamarin-live-player/id1228841832?ls=1&mt=8)
+- [Download Xamarin Live Player for Android](https://play.google.com/store/apps/details?id=com.xamarin.live)
+
+### Tools and resources:
 
 - **Windows**
 
-	- [Visual Studio 2017](https://www.visualstudio.com/downloads/) 
-	- [Xamarin](http://xamarin.com/download)
-	- [Visual Studio 2017 + Xamarin](https://www.visualstudio.com/xamarin/)
+	- [Visual Studio 2017](https://www.visualstudio.com/downloads/).
+	- [Xamarin](http://xamarin.com/download).
+	- [Visual Studio 2017 + Xamarin](https://www.visualstudio.com/xamarin/).
 	
 - **Mac**
 
-	- [Xamarin Studio](https://www.xamarin.com/studio) or [Visual Studio preview](https://www.visualstudio.com/vs/visual-studio-mac/). If you only want use Xamarin, it is better only use Xamarin Studio.
+	- [Visual Studio](https://www.visualstudio.com/vs/visual-studio-mac). 
+	  
+- **Windows, Mac, Visual Studio and online**
+
+	- [Genymotion](https://www.genymotion.com) - Genymotion is a fast third-party emulator that can be used instead of the default Android emulator. In some cases it's as good as or better than developing on actual devices!
+	- [Lucidchart](https://www.lucidchart.com) - Lucidchart is an ideal diagram tool for:
+		- [ER diagram tool](https://www.lucidchart.com/pages/tour/ER_diagram_tool)
+  		- [UML diagram tool](https://www.lucidchart.com/pages/examples/uml_diagram_tool)
+		- [Database Design tool](https://www.lucidchart.com/pages/database-diagram/database-design-tool)
+		- [Integrations](https://www.lucidchart.com/pages/integrations)
+	- **Json management tools**
+		- [Postman](https://www.getpostman.com) - Postman is a powerful HTTP client for testing web service.
+ 		- [Fiddler](http://www.telerik.com/fiddler) - Fiddler is a data monitoring tool that allows you to see incoming and outgoing HTTP(s) traffic from your computer.
+  		- [Jsonlint](https://jsonlint.com) - Open source project which allows you to validate your JSON data (online).
+	- **Visual Studio Extension**
+  		- [Resharper](https://www.jetbrains.com/resharper) -  It finds compiler errors, runtime errors, redundancies, and code smells right as you type, suggesting intelligent corrections for them [...(more information)](https://www.visualstudiogallery.msdn.microsoft.com/EA4AC039-1B5C-4D11-804E-9BEDE2E63ECF) 
+	- **Design**
+		- [Color Adobe](color.adobe.com) - "The color blender". I do not combine colors but color adober offers color themes for anyone who wants to use them. You can create a color combination from a color, a photo or by exploring other users themes
+			- [most popular](https://color.adobe.com/explore/?filter=most-popular&time=all)
+			- [most used](https://color.adobe.com/explore/?filter=most-used&time=all)
+			- [random](https://color.adobe.com/explore/?filter=random&time=all)
+		- Free Icons
+			- [Icons](https://thenounproject.com)
+		- [Android Asset Studio](https://romannurik.github.io/AndroidAssetStudio/index.html) - A collection of tools to easily generate assets such as launcher icons for your Android app
+		- [Sketch app](https://www.sketchapp.com) - Sketch is an amazing app for Mac that allows you to easily create stunning designs, mostly for UI and UX designers
 	
-- **Visual Studio -Extension-**
-
-  - [Resharper](https://www.jetbrains.com/resharper) -  It finds compiler errors, runtime errors, redundancies, and code smells right as you type, suggesting intelligent corrections for them [...(more information)](https://www.visualstudiogallery.msdn.microsoft.com/EA4AC039-1B5C-4D11-804E-9BEDE2E63ECF)
-  
-- **Windows and Mac or Visual Studio**
-
-  - [Genymotion](https://www.genymotion.com) - Genymotion is a fast third-party emulator that can be used instead of the default Android emulator. In some cases it's as good as or better than developing on actual devices!
-  - [Postman](https://www.getpostman.com) - Postman is a powerful HTTP client for testing web service.
-  - [Fiddler](http://www.telerik.com/fiddler) - Fiddler is a data monitoring tool that allows you to see incoming and outgoing HTTP(s) traffic from your computer.
-  - [Jsonlint](https://jsonlint.com) - Open source project which allows you to validate your JSON data (online).
-
+	
 ### Contents
 
 - **[Xamarin Forms](https://github.com/jorgemht/Xamarin/wiki/1.-Xamarin-Forms)** provides a way to quickly build native apps for iOS, Android, Windows and macOS, completely in C#.
@@ -134,6 +152,7 @@ You can run your Xamarin Forms apps in simulators. While these simulators work r
 - [Introduction to Web Services](https://developer.xamarin.com/guides/cross-platform/application_fundamentals/web_services/)
 - [Consuming a RESTful Web Service](https://developer.xamarin.com/guides/xamarin-forms/cloud-services/consuming/rest/)
 - [Async Support Overview](https://developer.xamarin.com/guides/cross-platform/advanced/async_support_overview/)
+- [Xamarin Live Player](https://developer.xamarin.com/guides/cross-platform/live/) - The developers can pair their device with Visual Studio 2017 and you won’t "need a Mac or other machines anymore".
 
 ### Microsoft Azure:
 
@@ -149,6 +168,12 @@ You can run your Xamarin Forms apps in simulators. While these simulators work r
 ### JSON:
 
 - [Introducing JSON](http://json.org)
+
+### NuGet:
+
+- [What is NuGet?](https://www.nuget.org)
+- [MVVM Light](https://www.nuget.org/packages/MvvmLightLibs)
+- [Json.NET](https://www.nuget.org/packages/Newtonsoft.Json) ([Web official](http://www.newtonsoft.com/json))
 
 ### Backend as a service provider:
 
@@ -170,6 +195,8 @@ you are encouraged to experiment with them along the way. Play the 'what-if' gam
 
 You could read the different examples with theory and you have another place called “development app” 
 where you can download some app and continue developing (expanding features).
+
+**About "You should have the following tools" ... I do not receive any money through affiliate or otherwise. These tools I use daily. I only share my opinion on what tools to use. If you know of others that can be useful also be delighted to try them**	
 
 ### License
 
