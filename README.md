@@ -61,13 +61,13 @@ You can run your Xamarin Forms apps in simulators. While these simulators work r
   		- [UML diagram tool](https://www.lucidchart.com/pages/examples/uml_diagram_tool)
 		- [Database Design tool](https://www.lucidchart.com/pages/database-diagram/database-design-tool)
 		- [Integrations](https://www.lucidchart.com/pages/integrations)
-	- **Json management tools**
+	- **To json**
 		- [Postman](https://www.getpostman.com) - Postman is a powerful HTTP client for testing web service.
  		- [Fiddler](http://www.telerik.com/fiddler) - Fiddler is a data monitoring tool that allows you to see incoming and outgoing HTTP(s) traffic from your computer.
   		- [Jsonlint](https://jsonlint.com) - Open source project which allows you to validate your JSON data (online).
 	- **Visual Studio Extension**
   		- [Resharper](https://www.jetbrains.com/resharper) -  It finds compiler errors, runtime errors, redundancies, and code smells right as you type, suggesting intelligent corrections for them [...(more information)](https://www.visualstudiogallery.msdn.microsoft.com/EA4AC039-1B5C-4D11-804E-9BEDE2E63ECF) 
-	- **Design**
+	- **For the design**
 		- [Color Adobe](color.adobe.com) - "The color blender". I do not combine colors but color adober offers color themes for anyone who wants to use them. You can create a color combination from a color, a photo or by exploring other users themes
 			- [most popular](https://color.adobe.com/explore/?filter=most-popular&time=all)
 			- [most used](https://color.adobe.com/explore/?filter=most-used&time=all)
