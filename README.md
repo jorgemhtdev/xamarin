@@ -4,14 +4,51 @@
 ![alt text](https://img.shields.io/github/license/mashape/apistatus.svg)
 ![alt text](https://img.shields.io/badge/progress-15%25-red.svg)
 
-### Getting started
+
+## Getting started
 
 Xamarin is a cross-platform technology where is possible to build native mobile apps for iOS and Android (of course also for Windows Phone) using C#.
 
-It is similar a react js or ionic but with some differences. A cross-platform allows development teams to build mobile apps using the "same code" for different platform allowing us to spend less time writing code for each one.
+### What's Xamarin?
 
-The last year Microsoft bought Xamarin and made it free (open-source) for everyone to use without having to pay. So now, it is time to start building amazing app with xamarin.
+- Founded in May 2011, acquired by Microsoft in February 2016
+- Native iOS, Android, Mac and Windows Mobile App development platform
+- Alway update
+- Native characteristics
+	- Native User Interface
+	- Full SDK Access
+	- Native Perfomance
+	- Share code across platforms
+	
+**The problem of multiplatform development**	
 
+In the next table, we can see how each platform integrated its own IDE, one o more programming languages with a specific language for the views and different desing pattern that apply to each platform.
+
+   |   | IOS | ANDROID | WINDOWS |
+   | ------------- | ------------- | ------------- | ------------- |
+   | IDE	| XCode	|Android Studio	 |Visual Studio |
+   | Language	| ObjectiveC o Swift | Java | C# | 		
+   | Views	| Storyboard o XIBS | AXML | XAML |
+   | Design Pattern	| MVC | MVC | MVVM |
+
+**What options do we have? Hybrid or native apps**
+
+- A native app is a smartphone application developed specifically for a mobile operating system.
+	- Native UI is better user experience. Best performance.
+	- Access to device hardware or software.
+	- Best security.
+	
+- Hybrid applications are websites packaged into a native wrapper.
+	- Portability, one code base can use in multiple platforms.
+	- Access to varius hardware or software capabilities through plug-ins.
+	- Cheaper origination costs.
+	- We write html and javascript code that has to be interpreted by a web browser. 
+
+Xamarin offers us a different alternative because it allows us to develop native applications for the most used platforms (iOS, Android and Windows). We have access to native APIS and .NET APIs with the same language, C#.
+
+Interesting alternatives to Xamarin like [React Native](https://facebook.github.io/react-native/) or [Ruby Motion](http://www.rubymotion.com) but, in my opinion by acceptance, quota, community and evolution Xamarin shines with its own light.
+
+> Native applications have the best performance, highest security, and best user experience.
 
 **Install Xamarin**
 
@@ -41,7 +78,7 @@ You can run your Xamarin Forms apps in simulators. While these simulators work r
 - [Download Xamarin Live Player for iOS](https://itunes.apple.com/us/app/xamarin-live-player/id1228841832?ls=1&mt=8)
 - [Download Xamarin Live Player for Android](https://play.google.com/store/apps/details?id=com.xamarin.live)
 
-### Tools and resources:
+## Tools and resources:
 - **Only Windows**
 	- [Visual Studio 2017](https://www.visualstudio.com/downloads/).
 	- [Xamarin](http://xamarin.com/download).
@@ -73,7 +110,7 @@ You can run your Xamarin Forms apps in simulators. While these simulators work r
 	- Currency Exchange
 		- [Open Exchangerates](https://docs.openexchangerates.org/docs/) - Exchange rates and currency conversion  [Signup](https://openexchangerates.org/signup) [Example](https://github.com/jorgemht/Xamarin/tree/master/CurrencyConverterJSON)
 	
-### Contents
+## Contents
 
 - **[Xamarin Forms](https://github.com/jorgemht/Xamarin/wiki/1.-Xamarin-Forms)** provides a way to quickly build native apps for iOS, Android, Windows and macOS, completely in C#.
 - **[Data Binding](https://github.com/jorgemht/Xamarin/wiki/2.-XAML-and-Data-Binding)**
@@ -136,7 +173,10 @@ You can run your Xamarin Forms apps in simulators. While these simulators work r
       | TextCell	| A Xamarin.Forms.Cell with primary and secondary text. |
       | ImageCell	| A Text Cell that also includes an image. |
 - [Navigation Page](https://github.com/jorgemht/Xamarin/wiki/3.-Navigation-Page)
+
 - [MVVM pattern](https://www.xamarin.com/forms)
+
+##  Recommended links
 
 ### Official Guides:
 
@@ -182,7 +222,7 @@ You can run your Xamarin Forms apps in simulators. While these simulators work r
 - [Getting Started with ASP.NET Core](https://developer.xamarin.com/guides/cross-platform/asp-net-core/)
 
 
-### Purpose & Goal
+## Purpose & Goal
 
 More than a primer, these examples are intended to get programmers up to speed on xamarin as fast as possible so they 
 can begin using xamarin productively. These examples only cover the language. To increase your understanding, 
@@ -191,7 +231,7 @@ you are encouraged to experiment with them along the way. Play the 'what-if' gam
 You could read the different examples with theory and you have another place called “development app” 
 where you can download some app and continue developing (expanding features).
 
-**About "You should have the following tools" ... I do not receive any money through affiliate or otherwise. These tools I use daily. I only share my opinion on what tools to use. If you know of others that can be useful also be delighted to try them**	
+**About "Tools and resources" ... I do not receive any money through affiliate or otherwise. These tools I use daily. I only share my opinion on what tools to use. If you know of others that can be useful also be delighted to try them**	
 
 ### License
 
