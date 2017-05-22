@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:control="clr-namespace:CurrencyConverterJSON.Controls"
+            x:Class="CurrencyConverterJSON.Pages.MainPage"
+            Title="Currency Convertert"
+            Padding="10"
+            BindingContext="{Binding Main, Source={StaticResource Locator}}">
+    <StackLayout Padding="8">
+        <Label 
+            Text="Amount: " /> 
+        <Entry
+            Text="{Binding Amount, Mode=TwoWay}"
+            Keyboard="Numeric"
+            Placeholder="Enter an amount ..." />
+        <Label 
+            Text="Source currency: " /> 
+        <control:BindablePicker
+            Title="Select target currency..." 
+            ItemsSource="{Binding Rates}" 
+            DisplayMemberPath="Code" 
+            SelectedValuePath="TaxtRate"
+            SelectedValue ="{Binding Path=SourceRate, Mode=TwoWay}" 
+            HorizontalOptions="FillAndExpand"
+            VerticalOptions="Center" />
+
+
+        <Label 
+            Text="Target currency: " /> 
+        <control:BindablePicker
+            Title="Select target currency..." 
+            ItemsSource="{Binding Rates}" 
+            DisplayMemberPath="Code" 
+            SelectedValuePath="TaxtRate"
+            SelectedValue ="{Binding Path=TargetRate, Mode=TwoWay}" 
+            HorizontalOptions="FillAndExpand"
+            VerticalOptions="Center" />
+         <Button
+            Command="{Binding ConvertCurrencyCommand}"
+            IsEnabled="{Binding IsEnabled, Mode=TwoWay}"
+            Text="Convert"
+            TextColor="White"
+            BackgroundColor="Navy" />
+         <ActivityIndicator
+            IsRunning="{Binding IsRunning, Mode=TwoWay}">
+         </ActivityIndicator>
+         <Label
+            VerticalOptions="FillAndExpand"
+            HorizontalOptions="FillAndExpand"
+            VerticalTextAlignment="Center"
+            HorizontalTextAlignment="Center"
+            BackgroundColor="Silver"
+            TextColor="Purple"
+            FontAttributes="Bold "
+            Text="{Binding Message, Mode=TwoWay}" />
+    </StackLayout>
+</ContentPage>

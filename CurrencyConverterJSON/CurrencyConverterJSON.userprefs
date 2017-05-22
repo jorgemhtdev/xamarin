@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{B023EBB6-38D0-4013-8BFC-08901A7B8F22}|Default">
+  <MonoDevelop.Ide.ItemProperties.CurrencyConverterJSON.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.D1B9AFE3-7BD8-45A9-AA04-0124C79FE90C" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CurrencyConverterJSON/Infrastructure/InstanceLocator.cs">
+    <Files>
+      <File FileName="CurrencyConverterJSON/ViewModels/MainViewModel.cs" Line="1" Column="1" />
+      <File FileName="CurrencyConverterJSON/Services/ApiServices.cs" Line="12" Column="45" />
+      <File FileName="CurrencyConverterJSON/Pages/MainPage.xaml" Line="58" Column="1" />
+      <File FileName="CurrencyConverterJSON/Models/ExchangeRates.cs" Line="24" Column="13" />
+      <File FileName="CurrencyConverterJSON/Infrastructure/InstanceLocator.cs" Line="12" Column="10" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.CurrencyConverterJSON.Droid PreferredExecutionTarget="Android.SelectDevice" />
+</Properties>
