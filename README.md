@@ -42,41 +42,36 @@ You can run your Xamarin Forms apps in simulators. While these simulators work r
 - [Download Xamarin Live Player for Android](https://play.google.com/store/apps/details?id=com.xamarin.live)
 
 ### Tools and resources:
-
-- **Windows**
-
+- **Only Windows**
 	- [Visual Studio 2017](https://www.visualstudio.com/downloads/).
 	- [Xamarin](http://xamarin.com/download).
 	- [Visual Studio 2017 + Xamarin](https://www.visualstudio.com/xamarin/).
-	
-- **Mac**
-
-	- [Visual Studio](https://www.visualstudio.com/vs/visual-studio-mac). 
-	  
-- **Windows, Mac, Visual Studio and online**
-
-	- [Genymotion](https://www.genymotion.com) - Genymotion is a fast third-party emulator that can be used instead of the default Android emulator. In some cases it's as good as or better than developing on actual devices!
-	- [Lucidchart](https://www.lucidchart.com) - Lucidchart is an ideal diagram tool for:
-		- [ER diagram tool](https://www.lucidchart.com/pages/tour/ER_diagram_tool)
-  		- [UML diagram tool](https://www.lucidchart.com/pages/examples/uml_diagram_tool)
-		- [Database Design tool](https://www.lucidchart.com/pages/database-diagram/database-design-tool)
-		- [Integrations](https://www.lucidchart.com/pages/integrations)
-	- **To json**
-		- [Postman](https://www.getpostman.com) - Postman is a powerful HTTP client for testing web service.
- 		- [Fiddler](http://www.telerik.com/fiddler) - Fiddler is a data monitoring tool that allows you to see incoming and outgoing HTTP(s) traffic from your computer.
-  		- [Jsonlint](https://jsonlint.com) - Open source project which allows you to validate your JSON data (online).
 	- **Visual Studio Extension**
   		- [Resharper](https://www.jetbrains.com/resharper) -  It finds compiler errors, runtime errors, redundancies, and code smells right as you type, suggesting intelligent corrections for them [...(more information)](https://www.visualstudiogallery.msdn.microsoft.com/EA4AC039-1B5C-4D11-804E-9BEDE2E63ECF) 
-	- **For the design**
-		- [Color Adobe](color.adobe.com) - "The color blender". I do not combine colors but color adober offers color themes for anyone who wants to use them. You can create a color combination from a color, a photo or by exploring other users themes
-			- [most popular](https://color.adobe.com/explore/?filter=most-popular&time=all)
-			- [most used](https://color.adobe.com/explore/?filter=most-used&time=all)
-			- [random](https://color.adobe.com/explore/?filter=random&time=all)
-		- Free Icons
-			- [Icons](https://thenounproject.com)
-		- [Android Asset Studio](https://romannurik.github.io/AndroidAssetStudio/index.html) - A collection of tools to easily generate assets such as launcher icons for your Android app
-		- [Sketch app](https://www.sketchapp.com) - Sketch is an amazing app for Mac that allows you to easily create stunning designs, mostly for UI and UX designers
-	
+- **Only Mac**
+	- [Visual Studio](https://www.visualstudio.com/vs/visual-studio-mac). 
+	- [Sketch app](https://www.sketchapp.com) - Sketch is an amazing app for Mac that allows you to easily create stunning designs, mostly for UI and UX designers
+- [Genymotion](https://www.genymotion.com) - Genymotion is a fast third-party emulator that can be used instead of the default Android emulator. In some cases it's as good as or better than developing on actual devices!
+- [Lucidchart](https://www.lucidchart.com) - Lucidchart is an ideal diagram tool for:
+	- [ER diagram tool](https://www.lucidchart.com/pages/tour/ER_diagram_tool)
+  	- [UML diagram tool](https://www.lucidchart.com/pages/examples/uml_diagram_tool)
+	- [Database Design tool](https://www.lucidchart.com/pages/database-diagram/database-design-tool)
+	- [Integrations](https://www.lucidchart.com/pages/integrations)
+- **To json**
+	- [Postman](https://www.getpostman.com) - Postman is a powerful HTTP client for testing web service.
+ 	- [Fiddler](http://www.telerik.com/fiddler) - Fiddler is a data monitoring tool that allows you to see incoming and outgoing HTTP(s) traffic from your computer.
+  	- [Jsonlint](https://jsonlint.com) - Open source project which allows you to validate your JSON data (online).
+- **For the design**
+	- [Color Adobe](color.adobe.com) - "The color blender". I do not combine colors but color adober offers color themes for anyone who wants to use them. You can create a color combination from a color, a photo or by exploring other users themes
+		- [most popular](https://color.adobe.com/explore/?filter=most-popular&time=all)
+		- [most used](https://color.adobe.com/explore/?filter=most-used&time=all)
+		- [random](https://color.adobe.com/explore/?filter=random&time=all)
+	- Free Icons
+		- [Icons](https://thenounproject.com)
+	- [Android Asset Studio](https://romannurik.github.io/AndroidAssetStudio/index.html) - A collection of tools to easily generate assets such as launcher icons for your Android app
+- **Public APIs**
+	- Currency Exchange
+		- [Open Exchangerates](https://docs.openexchangerates.org/docs/) - Exchange rates and currency conversion  [Signup](https://openexchangerates.org/signup) [Example](https://github.com/jorgemht/Xamarin/tree/master/CurrencyConverterJSON)
 	
 ### Contents
 
