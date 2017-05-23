@@ -94,11 +94,12 @@ You can run your Xamarin Forms apps in simulators. While these simulators work r
   	- [UML diagram tool](https://www.lucidchart.com/pages/examples/uml_diagram_tool)
 	- [Database Design tool](https://www.lucidchart.com/pages/database-diagram/database-design-tool)
 	- [Integrations](https://www.lucidchart.com/pages/integrations)
-- **To json**
+- **Json**
 	- [Postman](https://www.getpostman.com) - Postman is a powerful HTTP client for testing web service.
  	- [Fiddler](http://www.telerik.com/fiddler) - Fiddler is a data monitoring tool that allows you to see incoming and outgoing HTTP(s) traffic from your computer.
   	- [Jsonlint](https://jsonlint.com) - Open source project which allows you to validate your JSON data (online).
-- **For the design**
+	- **[Json2csharp](http://json2csharp.com) - Generate c# classes from json.**
+- **Design**
 	- [Color Adobe](color.adobe.com) - "The color blender". I do not combine colors but color adober offers color themes for anyone who wants to use them. You can create a color combination from a color, a photo or by exploring other users themes
 		- [most popular](https://color.adobe.com/explore/?filter=most-popular&time=all)
 		- [most used](https://color.adobe.com/explore/?filter=most-used&time=all)
@@ -110,11 +111,23 @@ You can run your Xamarin Forms apps in simulators. While these simulators work r
 	- Currency Exchange
 		- [Open Exchangerates](https://docs.openexchangerates.org/docs/) - Exchange rates and currency conversion  [Signup](https://openexchangerates.org/signup) [Example](https://github.com/jorgemht/Xamarin/tree/master/CurrencyConverterJSON)
 	
-## Contents
+## Controls Reference
 
-- **[Xamarin Forms](https://github.com/jorgemht/Xamarin/wiki/1.-Xamarin-Forms)** provides a way to quickly build native apps for iOS, Android, Windows and macOS, completely in C#.
-- **[Data Binding](https://github.com/jorgemht/Xamarin/wiki/2.-XAML-and-Data-Binding)**
-- **Pages** The content of the following table is taken from [here](https://developer.xamarin.com/guides/xamarin-forms/user-interface/controls/pages/)
+ **The content of 'Controls Reference' taken from [here](https://developer.xamarin.com/guides/xamarin-forms/user-interface/controls)**
+
+Xamarin.Forms uses use the native controls of each target platform. This means applications can use Portable Class Libraries or Shared Projects to house this shared code, and then make platform specific applications that will consume the shared code.
+
+There are four main control groups used to create the user interface of a Xamarin.Forms application: 
+- [Pages](https://developer.xamarin.com/guides/xamarin-forms/user-interface/controls/pages/)
+- [Layouts](https://developer.xamarin.com/guides/xamarin-forms/user-interface/controls/layouts/)
+- [Views](https://developer.xamarin.com/guides/xamarin-forms/user-interface/controls/views/) - We use the word 'view' to refer to visual elements like buttons, texts or text boxes, also known as controls or widgets on other platforms
+- [Cells](https://developer.xamarin.com/guides/xamarin-forms/user-interface/controls/cells/)
+
+At runtime each control will be mapped to its native equivalent, which is what will be rendered.
+
+**The following tables are a content of the links previously mentioned (Pages, Layouts, Views, Cells).**
+ 
+- **Pages** 
 
    | TYPE  | DESCRIPTION |
    | ------------- | ------------- |
@@ -125,7 +138,7 @@ You can run your Xamarin Forms apps in simulators. While these simulators work r
    | TemplatedPage	 |A Page that displays full-screen content with a control template, and the base class for ContentPage.	 |
    | CarouselPage	 | A Page allowing swipe gestures between subpages, like a gallery.	 |
    
-- **Layouts** The content of the following table is taken from [here](https://developer.xamarin.com/guides/xamarin-forms/user-interface/controls/layouts/)
+- **Layouts** 
 
    | TYPE  | DESCRIPTION |
    | ------------- | ------------- |
@@ -140,7 +153,7 @@ You can run your Xamarin Forms apps in simulators. While these simulators work r
    | StackLayout	 | A Layout that positions child elements in a single line which can be oriented vertically or horizontally. This layout will set the child bounds automatically during a layout cycle. User assigned bounds will be overwritten and thus should not be set on a child element by the user. |
    
 - **Views** We use the word 'view' to refer to visual elements like buttons, texts or text boxes, 
-  also known as controls or widgets on other platforms. The content of the following table is taken from [here](https://developer.xamarin.com/guides/xamarin-forms/user-interface/controls/views/)
+  also known as controls or widgets on other platforms. 
   
   | TYPE  | DESCRIPTION |
   | ------------- | ------------- |
@@ -164,7 +177,7 @@ You can run your Xamarin Forms apps in simulators. While these simulators work r
   | TimePicker	      | A View control that provides time picking. The visual representation of a TimePicker is very similar to the one of Entry, except that a special control for picking a time appears in place of a keyboard. |  
   | WebView	          | A View that presents HTML content. |
   
- - **Cells** The content of the following table is taken from [here](https://developer.xamarin.com/guides/xamarin-forms/user-interface/controls/cells/)
+ - **Cells** 
  
       | TYPE  | DESCRIPTION |
       | ------------- | ------------- |
@@ -172,9 +185,7 @@ You can run your Xamarin Forms apps in simulators. While these simulators work r
       | SwitchCell	| A Xamarin.Forms.Cell with a label and an on/off switch. |
       | TextCell	| A Xamarin.Forms.Cell with primary and secondary text. |
       | ImageCell	| A Text Cell that also includes an image. |
-- [Navigation Page](https://github.com/jorgemht/Xamarin/wiki/3.-Navigation-Page)
-
-- [MVVM pattern](https://www.xamarin.com/forms)
+      
 
 ##  Recommended links
 
@@ -209,6 +220,10 @@ You can run your Xamarin Forms apps in simulators. While these simulators work r
 - [What is NuGet?](https://www.nuget.org)
 - [MVVM Light](https://www.nuget.org/packages/MvvmLightLibs)
 - [Json.NET](https://www.nuget.org/packages/Newtonsoft.Json) ([Web official](http://www.newtonsoft.com/json))
+- [Mobile SQLiteStore](https://www.nuget.org/packages/Microsoft.Azure.Mobile.Client.SQLiteStore/) - Offline sync, azure allows offline synchronization of data with few lines of code.
+	- Allows access to information without a network.
+	- Automatic data synchronization with local cache.
+	- Control over when synchronization is performed.
 
 ### Backend as a service provider:
 
