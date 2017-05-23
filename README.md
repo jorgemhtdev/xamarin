@@ -1,9 +1,9 @@
-# Basic guide to learn Xamarin
-
-![alt text](https://img.shields.io/badge/C%23-Xamarin-blue.svg)
-![alt text](https://img.shields.io/github/license/mashape/apistatus.svg)
+# Basic guide to learn Xamarin  
+![alt text](https://img.shields.io/badge/C%23-Xamarin-blue.svg) 
+![alt text](https://img.shields.io/github/license/mashape/apistatus.svg) 
 ![alt text](https://img.shields.io/badge/progress-15%25-red.svg)
 
+![alt text](https://raw.githubusercontent.com/jorgemht/Xamarin/master/img/Xamarin_logo.png) 
 
 ## Getting started
 
@@ -20,6 +20,16 @@ Xamarin is a cross-platform technology where is possible to build native mobile 
 	- Native Perfomance
 	- Share code across platforms
 	
+### Differences between traditional Xamarin and Xamarin.Forms
+
+![alt text](https://raw.githubusercontent.com/jorgemht/Xamarin/master/img/xamarin.jpg)
+- **[Traditional Xamarin]()**
+	- The custom UI is more important than code sharing. Interactions that require native behavior.
+	- Use many platform-specific APIs
+- **[Xamarin Forms(XF)](https://github.com/jorgemht/Xamarin/wiki/1.-Xamarin-Forms)** - Provides a way to quickly build native apps for iOS, Android, Windows and macOS, completely in C#. 
+	- Code sharing is more important than custom UI.
+	- Common interactions across device platforms.
+	
 **The problem of multiplatform development**	
 
 In the next table, we can see how each platform integrated its own IDE, one o more programming languages with a specific language for the views and different desing pattern that apply to each platform.
@@ -29,7 +39,10 @@ In the next table, we can see how each platform integrated its own IDE, one o mo
    | IDE	| XCode	|Android Studio	 |Visual Studio |
    | Language	| ObjectiveC o Swift | Java | C# | 		
    | Views	| Storyboard o XIBS | AXML | XAML |
-   | Design Pattern	| MVC | MVC | MVVM |
+   | Design Pattern	| MVC | MVC | [MVVM](https://www.xamarin.com/forms) |
+
+More about [MVVM pattern](https://www.xamarin.com/forms)
+   
 
 **What options do we have? Hybrid or native apps**
 
