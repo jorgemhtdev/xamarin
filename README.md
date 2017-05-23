@@ -30,7 +30,7 @@ Xamarin is a cross-platform technology where is possible to build native mobile 
 	- Code sharing is more important than custom UI.
 	- Common interactions across device platforms.
 	
-**The problem of multiplatform development**	
+### The problem of multiplatform development	
 
 In the next table, we can see how each platform integrated its own IDE, one o more programming languages with a specific language for the views and different desing pattern that apply to each platform.
 
@@ -41,10 +41,7 @@ In the next table, we can see how each platform integrated its own IDE, one o mo
    | Views	| Storyboard o XIBS | AXML | XAML |
    | Design Pattern	| MVC | MVC | [MVVM](https://www.xamarin.com/forms) |
 
-More about [MVVM pattern](https://www.xamarin.com/forms)
-   
-
-**What options do we have? Hybrid or native apps**
+### What options do we have? Hybrid or native apps
 
 - A native app is a smartphone application developed specifically for a mobile operating system.
 	- Native UI is better user experience. Best performance.
@@ -63,7 +60,7 @@ Interesting alternatives to Xamarin like [React Native](https://facebook.github.
 
 > Native applications have the best performance, highest security, and best user experience.
 
-**Install Xamarin**
+## Install Xamarin
 
 To install Xamarin, simply head over to http://xamarin.com/download and download the installer. 
 
@@ -78,7 +75,7 @@ If you do not have visual studio installed in your computer, you can download vi
     - [Xamarin.Android Manual Installation](https://developer.xamarin.com/guides/android/getting_started/installation/mac/manual_installation/)
     - [Xamarin.iOS Manual Installation](https://developer.xamarin.com/guides/ios/getting_started/installation/mac/manual_installation/)
     
-**Setting Up a Mobile Device:**
+### Setting Up a Mobile Device:
 
 You can run your Xamarin Forms apps in simulators. While these simulators work reasonably well, in some cases you may need to deploy your app to a real device.
 
@@ -151,6 +148,8 @@ At runtime each control will be mapped to its native equivalent, which is what w
    | TemplatedPage	 |A Page that displays full-screen content with a control template, and the base class for ContentPage.	 |
    | CarouselPage	 | A Page allowing swipe gestures between subpages, like a gallery.	 |
    
+   ![alt text](https://developer.xamarin.com/guides/xamarin-forms/user-interface/controls/pages/Images/Pages.png) 
+   
 - **Layouts** 
 
    | TYPE  | DESCRIPTION |
@@ -164,6 +163,8 @@ At runtime each control will be mapped to its native equivalent, which is what w
    | Grid	 | A layout containing views arranged in rows and columns. |
    | RelativeLayout	 | A Layout that uses Constraints to layout its children.	 |
    | StackLayout	 | A Layout that positions child elements in a single line which can be oriented vertically or horizontally. This layout will set the child bounds automatically during a layout cycle. User assigned bounds will be overwritten and thus should not be set on a child element by the user. |
+   
+   ![alt text](https://developer.xamarin.com/guides/xamarin-forms/user-interface/controls/layouts/Images/Layouts.png)
    
 - **Views** We use the word 'view' to refer to visual elements like buttons, texts or text boxes, 
   also known as controls or widgets on other platforms. 
