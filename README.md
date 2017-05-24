@@ -28,8 +28,8 @@ Xamarin is a cross-platform technology where is possible to build native mobile 
 - **[Xamarin Forms(XF)](https://github.com/jorgemht/Xamarin/wiki/1.-Xamarin-Forms)** - Provides a way to quickly build native apps for iOS, Android, Windows and macOS, completely in C#: 
 	- Code sharing is more important than custom UI.
 	- Common interactions across device platforms.
+	
 ![alt text](https://raw.githubusercontent.com/jorgemht/Xamarin/master/img/xamarin.jpg)
-
 	
 ### The problem of multiplatform development	
 
