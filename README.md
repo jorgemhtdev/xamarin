@@ -5,6 +5,38 @@
 
 ![alt text](https://raw.githubusercontent.com/jorgemht/Xamarin/master/img/Xamarin_logo.png) 
 
+# Getting started
+
+Xamarin is a cross-platform technology where is possible to build native mobile apps for iOS and Android (of course also for 
+Windows Phone) using C#.
+
+# CONTENTS
+
+- [What's Xamarin?](https://github.com/jorgemht/Xamarin/blob/master/README.md#whats-xamarin)
+	- [Differences between traditional Xamarin and Xamarin.Forms](https://github.com/jorgemht/Xamarin/blob/master/README.md#differences-between-traditional-xamarin-and-xamarinforms)
+	- [The problem of multiplatform development](https://github.com/jorgemht/Xamarin/blob/master/README.md#the-problem-of-multiplatform-development)
+	- [What options do we have? Hybrid or native apps](https://github.com/jorgemht/Xamarin/blob/master/README.md#what-options-do-we-have-hybrid-or-native-apps)
+- [Install Xamarin](https://github.com/jorgemht/Xamarin/blob/master/README.md#install-xamarin)
+	- [Setting Up a Mobile Device](https://github.com/jorgemht/Xamarin/blob/master/README.md#setting-up-a-mobile-device)
+	- [Xamarin Live Player](https://github.com/jorgemht/xamarin#xamarin-live-player)
+- [Tools and resources](https://github.com/jorgemht/Xamarin/blob/master/README.md#tools-and-resources)	
+- [Controls Reference](https://github.com/jorgemht/Xamarin/blob/master/README.md#controls-reference)
+	- Pages
+	- Layouts
+	- Views
+	- Cells
+- [Recommended links](https://github.com/jorgemht/Xamarin/blob/master/README.md#recommended-links)
+	- [Official Guides](https://github.com/jorgemht/Xamarin/blob/master/README.md#official-guides)
+	- [Security](https://github.com/jorgemht/xamarin#security)
+	-  [Cloud computing](https://github.com/jorgemht/xamarin#cloud-computing)
+	- [JSON](https://github.com/jorgemht/Xamarin/blob/master/README.md#json)
+	- [NuGet](https://github.com/jorgemht/Xamarin/blob/master/README.md#nuget)
+	- [Backend as a service provider](https://github.com/jorgemht/Xamarin/blob/master/README.md#backend-as-a-service-provider)
+	- [ASP.NET](https://github.com/jorgemht/Xamarin/blob/master/README.md#aspnet)
+- [Purpose & Goal](https://github.com/jorgemht/Xamarin/blob/master/README.md#purpose--goal)
+- [People to follow](https://github.com/jorgemht/xamarin#people-to-follow)
+- [License](https://github.com/jorgemht/xamarin#license)
+
 ## Getting started
 
 Xamarin is a cross-platform technology where is possible to build native mobile apps for iOS and Android (of course also for Windows Phone) using C#.
@@ -124,12 +156,18 @@ You can run your Xamarin Forms apps in simulators. While these simulators work r
 		- [Icons](https://thenounproject.com).
 	- [Android Asset Studio](https://romannurik.github.io/AndroidAssetStudio/index.html) - A collection of tools to easily generate assets such as launcher icons for your Android app.
 - **Placeholders**
+	- [Mockaroo](https://www.mockaroo.com) -  A free test data generator
 	- [Lipsum](http://lipsum.com) - Filler text commonly used to demonstrate the visual presentation.
 	- [Lorempixel](http://lorempixel.com) - Filler images commonly used to demonstrate the visual presentation.
 	- [Placehold](https://placehold.it) - Filler images commonly used to demonstrate the visual presentation.
 - **Public APIs**
 	- Currency Exchange:
 		- [Open Exchangerates](https://docs.openexchangerates.org/docs/) - Exchange rates and currency conversion.  [Signup](https://openexchangerates.org/signup). [Example](https://github.com/jorgemht/Xamarin/tree/master/CurrencyConverterJSON).
+	- Weather
+		- [Yahoo! Weather](https://developer.yahoo.com/weather)
+	- Geocoding
+		- [Google Maps](https://developers.google.com/maps)
+		- [Mapbox](https://www.mapbox.com/developers)
 	
 ## Controls Reference
 
@@ -227,7 +265,8 @@ At runtime each control will be mapped to its native equivalent, which is what w
 ### Security
 
 - [Oauth authentication flow](https://oauth.net/core/diagram.png)
-- [oauth](https://oauth.net) - An open protocol to allow secure authorization in a simple and standard method from web, mobile and desktop applications.
+- [Oauth](https://oauth.net) - An open protocol to allow secure authorization in a simple and standard method from web, mobile and desktop applications.
+- [Identity server](https://identityserver.io/index.html) - Open Source OpenID Connect and OAuth 2.0 framework for .NET
 - [The Ultimate Guide to Mobile API Security](https://stormpath.com/blog/the-ultimate-guide-to-mobile-api-security)
 
 ### Cloud computing. 
@@ -244,11 +283,12 @@ At runtime each control will be mapped to its native equivalent, which is what w
 	- [Protecting Web API Backend with Azure Active Directory and API Management](https://azure.microsoft.com/en-us/resources/videos/protecting-web-api-backend-with-azure-active-directory-and-api-management)
 - **[Aws Amazon](https://aws.amazon.com)**	
 - **[Cloud Google](cloud.google.com)**
+- [Northwind Database](https://northwinddatabase.codeplex.com) - The Northwind database is a sample database used by Microsoft 
 
 
 ### JSON:
 - [What is JSON?](https://developers.squarespace.com/what-is-json)
-- [Introducing JSON](http://json.org)
+- [Introducing JSON](http://json.org) 
 
 ### NuGet:
 
@@ -270,6 +310,8 @@ At runtime each control will be mapped to its native equivalent, which is what w
 
 - [What's the relationship between the Xamarin and .Net Core?](https://forums.xamarin.com/discussion/67734/whats-the-relationship-between-the-xamarin-and-net-core)
 - [Getting Started with ASP.NET Core](https://developer.xamarin.com/guides/cross-platform/asp-net-core/)
+- [Asp.net Core](www.microsoft.com/net/core)
+- [ASP.NET Web API 2](https://docs.microsoft.com/en-us/aspnet/web-api/overview/getting-started-with-aspnet-web-api/tutorial-your-first-web-api)
 
 
 ## Purpose & Goal
