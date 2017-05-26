@@ -281,7 +281,7 @@ At runtime each control will be mapped to its native equivalent, which is what w
 	- [Azure Security Services and Technologies](https://docs.microsoft.com/en-us/azure/security/azure-security-services-technologies)
 	- [Protecting Web API Backend with Azure Active Directory and API Management](https://azure.microsoft.com/en-us/resources/videos/protecting-web-api-backend-with-azure-active-directory-and-api-management)
 - **[Aws Amazon](https://aws.amazon.com)**	
-- **[Cloud Google](cloud.google.com)**
+- **[Cloud Google](https://cloud.google.com)**
 - [Northwind Database](https://northwinddatabase.codeplex.com) - The Northwind database is a sample database used by Microsoft 
 
 
