@@ -37,10 +37,6 @@ Windows Phone) using C#.
 - [People to follow](https://github.com/jorgemht/xamarin#people-to-follow)
 - [License](https://github.com/jorgemht/xamarin#license)
 
-## Getting started
-
-Xamarin is a cross-platform technology where is possible to build native mobile apps for iOS and Android (of course also for Windows Phone) using C#.
-
 ## What's Xamarin?
 
 - Founded in May 2011, acquired by Microsoft in February 2016.
@@ -135,6 +131,8 @@ You can run your Xamarin Forms apps in simulators. While these simulators work r
 - **Only Mac**
 	- [Visual Studio](https://www.visualstudio.com/vs/visual-studio-mac). 
 	- [Sketch app](https://www.sketchapp.com) - Sketch is an amazing app for Mac that allows you to easily create stunning designs, mostly for UI and UX designers.
+	- [Origami Studio](http://origami.design) -  Make prototyping apps.
+	- [Framer](https://framer.com) - Design interactive high-fidelity prototypes for iOS, Android, desktop or the web.
 - [Genymotion](https://www.genymotion.com) - Genymotion is a fast third-party emulator that can be used instead of the default Android emulator. In some cases it's as good as or better than developing on actual devices!
 - [Lucidchart](https://www.lucidchart.com) - Lucidchart is an ideal diagram tool for:
 	- [ER diagram tool](https://www.lucidchart.com/pages/tour/ER_diagram_tool).
@@ -261,6 +259,7 @@ At runtime each control will be mapped to its native equivalent, which is what w
 - [Consuming a RESTful Web Service](https://developer.xamarin.com/guides/xamarin-forms/cloud-services/consuming/rest/)
 - [Async Support Overview](https://developer.xamarin.com/guides/cross-platform/advanced/async_support_overview/)
 - [Xamarin Live Player](https://developer.xamarin.com/guides/cross-platform/live/) - The developers can pair their device with Visual Studio 2017 and you won’t "need a Mac or other machines anymore".
+- [NET Foundation](https://github.com/dotnet) - To see the platform code
 
 ### Security
 
@@ -295,6 +294,9 @@ At runtime each control will be mapped to its native equivalent, which is what w
 - [What is NuGet?](https://www.nuget.org)
 - [MVVM Light](https://www.nuget.org/packages/MvvmLightLibs)
 - [Json.NET](https://www.nuget.org/packages/Newtonsoft.Json) ([Web official](http://www.newtonsoft.com/json))
+	- It is much faster in processing JSON files. So much so that Microsoft itself uses it in its developments.
+	- It is very simple to use.
+	- Allows to serialize and deserialize any .Net object from JSON and vice versa.
 - [Mobile SQLiteStore](https://www.nuget.org/packages/Microsoft.Azure.Mobile.Client.SQLiteStore/) - Offline sync, azure allows offline synchronization of data with few lines of code.
 	- Allows access to information without a network.
 	- Automatic data synchronization with local cache.
