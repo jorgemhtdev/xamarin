@@ -271,8 +271,8 @@ At runtime each control will be mapped to its native equivalent, which is what w
 ### Cloud computing. 
 - **What Is Cloud Computing?**
 	- [PCMAG](http://www.pcmag.com/article2/0,2817,2372163,00.asp)
-	- [A beginner's guide](https://azure.microsoft.com/en-in/overview/what-is-cloud-computing/)
-- **[Microsoft Azure](azure.microsoft.com):**
+	- [A beginner's guide](https://azure.microsoft.com/en-in/overview/what-is-cloud-computing)
+- **[Microsoft Azure](https://azure.microsoft.com):**
 	- [Visual Studio Dev Essentials](azure.microsoft.com//pricing/member-offers/vs-dev-essentials/) - Dev Essentials gives you the experience to use Azure for free for 1 year, with a monthly credit of $ 25. 
 	- [What is the Azure SDK for .NET?](https://docs.microsoft.com/en-us/azure/dotnet-sdk)
 	- [Get the SDKs and command-line tools you need](https://azure.microsoft.com/en-us/downloads)
