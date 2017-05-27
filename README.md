@@ -152,6 +152,11 @@ You can run your Xamarin Forms apps in simulators. While these simulators work r
 		- [random](https://color.adobe.com/explore/?filter=random&time=all).
 	- Free Icons
 		- [Icons](https://thenounproject.com).
+		- [Captain IconWeb](https://mariodelvalle.github.io/CaptainIconWeb).
+		- [Dryicons](https://dryicons.com).
+		- [Fontawesome](http://fontawesome.io).
+		- [Icomoon](https://icomoon.io).
+		- [Iconfinder](https://www.iconfinder.com).
 	- [Android Asset Studio](https://romannurik.github.io/AndroidAssetStudio/index.html) - A collection of tools to easily generate assets such as launcher icons for your Android app.
 - **Placeholders**
 	- [Mockaroo](https://www.mockaroo.com) -  A free test data generator
