@@ -351,6 +351,9 @@ where you can download some app and continue developing (expanding features).
 - Paul Betts 
 	- [Blog](https://log.paulbetts.org)
 	- [Github](https://github.com/paulcbetts) ... [Refit](https://github.com/paulcbetts/refit), [Akavache](https://github.com/akavache/Akavache), [Fusillade](https://github.com/paulcbetts/Fusillade), and [ModernHttpClient](https://github.com/paulcbetts/ModernHttpClient)	
+	
+## Book
+- [Xamarin in Action](https://www.manning.com/books/xamarin-in-action?a_aid=XamarinInAction&a_bid=4997cccc)
 
 ## License
 
