@@ -115,7 +115,7 @@ You can run your Xamarin Forms apps in simulators. While these simulators work r
 - [Windows 10 Mobile](https://docs.microsoft.com/en-gb/windows/uwp/get-started/enable-your-device-for-development).
 - [Windows Phone 8](https://msdn.microsoft.com/en-us/library/windows/apps/ff769508(v=vs.105).aspx).
 
-### Xamarin Live Player
+### Xamarin Live Player 
 
 **Xamarin Live Player** is an app for Android and iOS, which allows the developers to continuously build, test and debug their apps directly from Visual Studio 2017 IDE.
 - [Download Xamarin Live Player for iOS](https://itunes.apple.com/us/app/xamarin-live-player/id1228841832?ls=1&mt=8).
