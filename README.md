@@ -355,6 +355,12 @@ where you can download some app and continue developing (expanding features).
 ## Book
 - [Xamarin in Action](https://www.manning.com/books/xamarin-in-action?a_aid=XamarinInAction&a_bid=4997cccc)
 
+# Licenses
+
+This project uses some third-party assets with a license that requires attribution:
+
+- [Images](https://crossplatform.space/2015/11/mvvm-the-beauty-of-cross-platform-development/): by Valeriy Kovalenko
+
 ## License
 
 The Basic guide to learn Xamarin is released under the MIT License.
