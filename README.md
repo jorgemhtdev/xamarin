@@ -1,7 +1,6 @@
 # Basic guide to learn Xamarin  
 ![alt text](https://img.shields.io/badge/C%23-Xamarin-blue.svg) 
 ![alt text](https://img.shields.io/github/license/mashape/apistatus.svg) 
-![alt text](https://img.shields.io/badge/progress-15%25-red.svg)
 
 ![alt text](https://raw.githubusercontent.com/jorgemht/Xamarin/master/img/Xamarin_logo.png) 
 
