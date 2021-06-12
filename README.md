@@ -362,4 +362,4 @@ This project uses some third-party assets with a license that requires attributi
 
 ## License
 
-The Basic guide to learn Xamarin is released under the MIT License.
+The Basic guide to learn Xamarin is released under the MIT License. 
